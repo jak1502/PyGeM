@@ -77,6 +77,5 @@ RUN cd $HOME  && \
     git clone https://github.com/mathLab/PyGeM.git  && \ 
     cd PyGeM && \
     python setup.py install
-    echo $USER
 
 USER PyGeM
